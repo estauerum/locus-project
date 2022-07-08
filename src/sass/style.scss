@@ -1,0 +1,21 @@
+@import 'bootstrap-reboot.min';
+@import 'font';
+
+* {
+    font-family: 'Poppins';
+}
+
+.container {
+    margin: 0 auto;
+    width: 1325px;
+}
+
+@import 'blocks/header';
+@import 'blocks/how';
+@import 'blocks/mission';
+@import 'blocks/our';
+@import 'blocks/test';
+@import 'blocks/contact';
+@import 'blocks/status';
+
+

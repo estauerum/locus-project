@@ -1,0 +1,25 @@
+.mission {
+    padding: 0 0 120px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #1C2323;
+        width: 487px;
+
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #486958;
+        margin-top: 50px;
+    }
+    &__text {
+        width: 550px;
+    }
+}

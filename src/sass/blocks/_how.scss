@@ -1,0 +1,76 @@
+.how {
+    padding: 0 0 150px 0;
+    &__title {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        text-align: center;
+        color: #1C2323;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        text-align: center;
+        color: #404242;
+        margin-top: 20px;
+    }
+    &__wrap {
+        position: relative;
+        display: flex;
+        background: #CCF0E6;
+        border-radius: 0px 10px 10px 0px;
+        margin-top: 71px;
+        span {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #486958;
+            margin-left: 25px;
+        }
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #486958;
+        margin-top: 70px;
+        margin-left: 25px;
+        margin-bottom: 40px;
+    }
+    &__circle-big {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 182px;
+        left: 999px;
+        width: 90px;
+        height: 90px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 65px;
+        cursor: pointer;
+    }
+    &__cirlce-mini {
+        width: 60px;
+        height: 60px;
+        left: 1179px;
+        top: 1654px;
+        background: #FFFFFF;
+        border-radius: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__triangle {
+        border: 17px solid transparent; 
+        border-left: 17px solid #FEC62D;
+        margin-left: 24px;
+        transition: 1s all;
+
+        &:hover {
+            border-left: 17px solid red;
+        }
+    }
+}

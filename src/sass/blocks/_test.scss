@@ -1,0 +1,53 @@
+.test {
+    padding: 0 0 240px 0;
+    &__title {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        text-align: center;
+        color: #1C2323;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        display: flex;
+    }
+    &__back {
+        background: #CCF0E6;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    &__numb {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        color: #58A9A5;
+    }
+    &__nembers {
+        span {
+            font-weight: 600;
+            font-size: 30px;
+            color: #58A9A5;
+        }
+    }
+    &__not {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+        color: #486958;
+        display: flex;
+        flex-direction: column;
+        margin-top: 123px;
+        margin-left: 50px;
+        span {
+            color: #58A9A5;
+            margin-top: 40px;
+        }
+    }
+
+}
